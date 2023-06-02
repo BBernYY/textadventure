@@ -1,0 +1,48 @@
+{
+    "look around": {
+        "requirements": {
+            "room": "house",
+            "keyword": "look around"
+        },
+        "replies": {
+            "reply": "You see you are in a room with a door, a mailbox and a window."
+        }
+    },
+    "mailbox in house": {
+        "requirements": {
+            "room": "house",
+            "keyword": "move to mailbox"
+        },
+        "replies": {
+            "reply": "There is a letter in the mailbox. It reads:\nYou are about to die.\nYou throw the letter away",
+            "room": "house"
+        }
+    },
+    "start": {
+        "requirements": {
+            "keyword": "start"
+        },
+        "replies": {
+            "room": "house",
+            "reply": "Welcome to the text adventure! This is a template of a game you can make.",
+            "dagger": false
+        }
+    },
+    "idiot": {
+        "requirements": {
+            "keyword": "move to window"
+        },
+        "replies": {
+            "reply": "What kind of use do you think it has to go to that window? Anyways, you see man man walking to your door."
+        }
+    },
+    "dead": {
+        "requirements": {
+            "keyword": "move to door"
+        },
+        "replies": {
+            "reply": "You open the door. A man stands in front of you and smile while he brutally murders you.\nThe end.\nyes.\nmake a better story by downloading the file and changing adventure.json. Have fun!"
+        }
+    }
+    
+}
